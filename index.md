@@ -1,7 +1,7 @@
 # Quick Guide to Observer Pattern
 
 Observer pattern sudah sangat umum dipakai sekarang. faktanya, sudah banyak library pattern ini tersedia di berbagai macam bahasa pemprograman. 
-Dan ketika masuk kedalam dunia industri, pattern ini banyak di custom secara khusus untuk menunjang kebutuhan bisnis industri nya. mau tau kek gimana pattern ini ? scroll terus kebawah ye ;).
+Dan ketika masuk kedalam dunia industri, pattern ini banyak di custom secara khusus untuk menunjang kebutuhan bisnis industri nya. mau tau kek gimana pattern ini ? scroll terus kebawah ye 😏.
 
 ## Apa itu Observer Pattern
 Observer pattern ini merupakan design pattern yg menggambarkan hubungan antar 1 object (**Observable**) dengan banyak object (**Observer**) yang dimana ketika 1 object melakukan perubahan status, object - object yang terhubung dengan object tersebut akan mendapatkan pemberitahuan dan melakukan tindakan secara otomatis. agar lebih gampang di cerna mari kita bahas secara simple dan detail dalam 2 langkah.
@@ -23,7 +23,7 @@ Object (**Observer**) melakukan perubahan status setelah mendapat "*Notify*" dar
 
 ## Step 2 : Jump to the Code
 
-**note** : disini sample code nya pakai bahasa pemprograman Golang ya biar kekinian :D
+**note** : *disini sample code nya pakai bahasa pemprograman [https://golang.org/](Golang) ya biar kekinian* 😁
 
 ```
 // Interfaces
@@ -48,7 +48,7 @@ type TukangSayur struct {
 }
 
 // NewTukangSayur func to initiate TukangSayur
-func NewTukangSayur() TukangSayur {
+func NewTukangSayur() Observable {
     return new(TukangSayur)
 }
 
@@ -75,7 +75,7 @@ type Emak struct {
     money Int
 }
 
-func NewEmak(money int) Emak {
+func NewEmak(money int) Observer {
     emak = new (Emak)
     emak.money = money
 
