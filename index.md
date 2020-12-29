@@ -23,7 +23,7 @@ Object (**Observer**) melakukan perubahan status setelah mendapat "*Notify*" dar
 
 ## Step 2 : Jump to the Code
 
-**note** : *disini sample code nya pakai bahasa pemprograman [https://golang.org/](Golang) ya biar kekinian* 😁
+**note** : *disini sample code nya pakai bahasa pemprograman [Golang](https://golang.org/) ya biar kekinian* 😁
 
 ```
 // Interfaces
